@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <script src="https://kit.fontawesome.com/a2b54467f5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="rps-section">
+        <h1>Rock Paper Scissors</h1>
+        <i onclick="rps('rock')" class="fa-solid fa-hand-fist Game-Icon"></i>
+        <i onclick="rps('paper')" class="fa-solid fa-hand Game-Icon"></i>
+        <i onclick="rps('scissors')" class="fa-solid fa-hand-peace Game-Icon"></i>
+
+        <P class="bold-text" id="rps-resultText"></P>
+        <P id="rps-pickedWhatText"></P>
+        <P id="rps-scoreText"></P>
+
+        <button class="reset-score" onclick="rps('reset')">Reset Score</button>
+    </section>
+</body>
+</html>

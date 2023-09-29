@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Heads or Tails</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="app.js"></script>
+        <script src="https://kit.fontawesome.com/a2b54467f5.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section id="hot-section">
+            <h1>Heads or Tails</h1>
+            <img src="Images/hot-heads.png" alt="heads" onclick="hot('heads')" class="Game-Img">
+            <img src="Images/hot-tails.png" alt="tails" onclick="hot('tails')" class="Game-Img">
+
+            <P class="bold-text" id="hot-resultText"></P>
+            <P id="hot-pickedWhatText"></P>
+            <P id="hot-scoreText"></P>
+
+            <button class="reset-score" onclick="hot('reset')">Reset Score</button>
+        </section>
+    </body>
+</html>
